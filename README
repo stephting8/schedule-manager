@@ -1,0 +1,15 @@
+[User Opens Gmail Email]
+           ↓
+[Content Script Injected]
+           ↓
+[Extension Scans Email Body Text]
+           ↓
+[Parse for Dates, Times, Keywords (like "meeting", "due", "event")]
+           ↓
+[If Match Found → Show Popup on Email Page]
+           ↓
+[Popup says: "Add to Calendar?" → [Add] or [Edit]]
+           ↓
+[If Add → Use Google Calendar API to Create New Event]
+           ↓
+[Confirmation Message: "Event Added! ✅"]
